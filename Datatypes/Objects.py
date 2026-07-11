@@ -1,23 +1,11 @@
-# Mutable and Immutable in Python
+sugar_amount = 2
+print(f"initial Sugar: {sugar_amount}")
 
-# Immutable examples
-name = "Alice"
-print(name)  # Alice
-print(id(name))
 
-# Reassigning creates a new object
-name = "Bob"
-print(name)  # Bob
-print(id(name))
+sugar_amount = 12
+print(f"Second initial Sugar: {sugar_amount}")
 
-# Mutable example
-numbers = [1, 2, 3]
-print(numbers)  # [1, 2, 3]
 
-# Changing the list modifies the same object
-numbers.append(4)
-print(numbers)  # [1, 2, 3, 4]
+print(f"ID of 2: {id(2)}")
+print(f"ID of 2: {id(12)}")
 
-# Explanation
-print("\nImmutable objects cannot be changed in place.")
-print("Mutable objects can be changed in place.")
