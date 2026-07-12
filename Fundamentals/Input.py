@@ -9,8 +9,11 @@
 # print("You entered:", b)
 
 
-a = input("Enter a number: ")
-b=input("Enter a name: ")
+# a = input("Enter a number: ")
+# b=input("Enter a name: ")
 
-c = int(a) + int(b) #typecasting
-print("You entered:", c)
+# c = int(a) + int(b) #typecasting
+# print("You entered:", c)
+
+d=int(input("Enter a number : "))
+print(3+d)
