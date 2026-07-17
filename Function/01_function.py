@@ -2,7 +2,6 @@
 # b=2
 # c=1
 # avg =(a+b+c)/3.0
-
 # print(avg)
 
 def average(a,b,c):
