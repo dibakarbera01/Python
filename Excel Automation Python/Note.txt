@@ -1,0 +1,42 @@
+NumPy
+- NumPy is a core Python library for numerical computing.
+- It provides the ndarray object, which is a fast and efficient multi-dimensional array.
+- Common uses:
+  - mathematical operations on large arrays
+  - linear algebra
+  - random number generation
+  - statistics and signal processing
+- Example:
+  import numpy as np
+
+  arr = np.array([1, 2, 3, 4])
+  print(arr * 2)
+  print(arr.mean())
+
+Pandas
+- Pandas is a library for data analysis and manipulation.
+- It is built on top of NumPy and is ideal for tabular data.
+- Main data structures:
+  - Series: one-dimensional labeled data
+  - DataFrame: two-dimensional table with rows and columns
+- Common operations:
+  - reading data: pd.read_csv(), pd.read_excel()
+  - filtering and selection: df["column"], df.loc[], df.iloc[]
+  - cleaning: dropna(), fillna(), rename()
+  - grouping and aggregation: groupby(), agg()
+  - merging data: merge(), concat()
+- Example:
+  import pandas as pd
+
+  df = pd.DataFrame({
+      "Name": ["Alice", "Bob"],
+      "Score": [90, 85]
+  })
+
+  print(df)
+  print(df["Score"].mean())
+
+Summary
+- Use NumPy for efficient numerical and array-based computations.
+- Use Pandas for working with structured data, tables, and analysis workflows.
+- Together, they are widely used in data science, machine learning, and automation tasks.
